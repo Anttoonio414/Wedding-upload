@@ -1,0 +1,148 @@
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+
+        background-image: url("https://images.unsplash.com/photo-1522673607200-164d1b6ce486");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 25px;
+        border-radius: 20px;
+        width: 90%;
+        max-width: 400px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .file-btn {
+        width: 100%;
+        padding: 12px;
+        background: #ff4d6d;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .file-btn:hover {
+        background: #5a54d1;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 44px;
+        font-weight: normal;
+        color: #d6336c;
+    }
+    .divider {
+        width: 360px;
+        height: 2px;
+        background: #ff4d6d;
+        margin: 10px auto 20px;
+        border-radius: 5px;
+    }
+    .quote {
+        font-style: italic;
+        font-size: 15px;
+        color: #777;
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .file-count {
+        font-size: 14px;
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+    .text-input {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    textarea.text-input {
+        resize: none;
+        height: 80px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background: #ff4d6d;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background: #e63950;
+    }
+
+    #status {
+        margin-top: 15px;
+        font-weight: 500;
+    }
+
+    #progressContainer {
+        width: 100%;
+        background: #eee;
+        border-radius: 10px;
+        margin-top: 15px;
+        display: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+
+    #progressBar {
+        width: 0%;
+        padding: 8px;
+        background: #ff4d6d;
+        color: white;
+        border-radius: 10px;
+        font-size: 12px;
+        transition: width 0.3s ease;
+    }
+
+    @media (max-width: 600px) {
+    body {
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 20px 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .divider {
+        width: 80%;
+    }
+}
